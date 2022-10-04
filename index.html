@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Text Analyzer</title>
+  </head>
+  <body>
+    <h1>Text Analyzer</h1>
+  <div class="main_btnCont">
+    <div class="btnContainer">
+      <button id="dec" onclick="decrease()">-</button>
+      <input type="text" value="16" id="ff_main_size" disabled>
+      <button id="inc" onclick="increaseFont()">+</button>
+      <button id="bol" onclick="bold()">Bold</button>
+      <button id="italic" onclick="italic()">Italic</button>
+      <button id="copytext" onclick="copyText()">Copy Text &#10003;</button>
+      <button id="selectAll" onclick="selectAll()">select All &#10003;</button>
+      <button id="clearText" onclick="clearText()">Clear Text</button>
+  </div>
+  </div>
+    <div class="container">
+      <textarea id="textanalyze"></textarea>
+    </div>
+
+
+    <script src="./app.js"></script>
+  </body>
+</html>
